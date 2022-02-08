@@ -1,0 +1,43 @@
+h1 {
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(20) infinite alternate,
+      blink 800ms steps(20) infinite normal;
+    border-right: 5px solid black;
+  }
+ 
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+  @media only screen and (width<= 1000px) {
+    
+    @keyframes typewriter {
+        from {
+          width: 0%;font-size: 1.5em;
+        }
+        to {
+          width: 80%;font-size: 1.5em;
+        }
+      }
+     
+  }
+
+  @media only screen and (width> 1000px) {
+    @keyframes typewriter {
+        from {
+          width: 0%;font-size: 2em;
+        }
+        to {
+          width: 48%;font-size: 2em;
+        }
+      }
+  }
+
+  
