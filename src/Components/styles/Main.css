@@ -1,0 +1,12 @@
+hr{
+    height: 20px;
+    color:#59bd99;
+}
+.btn{
+    background-color: #59bd99;
+}
+Link>q,a{
+    text-decoration: none !important;
+    color:#59bd99 !important;
+    text-shadow: 1px 1px white;
+}

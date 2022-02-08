@@ -1,4 +1,4 @@
-h1 {
+.App-header>h1 {
     font-size: 2em;
     white-space: nowrap;
     overflow: hidden;
@@ -17,9 +17,7 @@ h1 {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #59bd99;text-shadow: 1px 1px white;
-    background-image: url('../../Resources/Images/lata1.jpg');
-  background-repeat: round;
-  background-size:cover;
+   
   }
   @keyframes blink {
     from {
