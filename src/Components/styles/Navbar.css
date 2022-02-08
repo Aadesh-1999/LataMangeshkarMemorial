@@ -1,11 +1,11 @@
 .navbar{
-    background-color: transparent;
+    background-color: #59bd99;
     font-size: large;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
 }
 .nav-link,.navbar-brand{
-    color:#59bd99 !important;
+    color:white !important;
     text-shadow: 1px 1px #59bd99;
 }
 .nav-link:hover,.navbar-brand:hover{

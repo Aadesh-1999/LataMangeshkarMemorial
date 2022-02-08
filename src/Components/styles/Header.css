@@ -2,11 +2,25 @@ h1 {
     font-size: 2em;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 3s steps(20) infinite alternate,
-      blink 800ms steps(20) infinite normal;
+    animation: typewriter 3s steps(12) infinite alternate,
+      blink 800ms steps(12) infinite normal;
     border-right: 5px solid black;
   }
- 
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 90vh;
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+    align-items:flex-end;
+    padding-bottom: 5;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #59bd99;text-shadow: 1px 1px white;
+    background-image: url('../../Resources/Images/lata1.jpg');
+  background-repeat: round;
+  background-size:cover;
+  }
   @keyframes blink {
     from {
       border-color: black;

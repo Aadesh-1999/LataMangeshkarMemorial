@@ -1,20 +1,7 @@
 .App{
-  background-image: url('./Resources/Images/lata1.jpg');
-  background-repeat: round;
-  background-size:100%;
+  
 }
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  margin-top: 0;
-  flex-direction: row;
-  align-items: flex-end;
-  padding-bottom: 5;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #59bd99;text-shadow: 1px 1px #59bd99;
-}
+
 
 /* .App-link {
   color: #61dafb;
