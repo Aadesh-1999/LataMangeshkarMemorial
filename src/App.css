@@ -1,7 +1,8 @@
 .App{
+  background-color: aqua;
   background-image: url('./Resources/Images/lata1.jpg');
-  background-repeat: round;
-  background-size:contain;
+  background-repeat: no-repeat;
+  background-size:cover;
   background-attachment: fixed;
   overflow: hidden;
 }
