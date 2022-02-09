@@ -3,6 +3,9 @@ import './App.css';
 import {Navbar} from './Components/Navbar';
 import { Routes, Route,BrowserRouter as Router } from "react-router-dom";
 import { Main } from './Components/Main';
+import { About } from './Pages/About';
+import { Songs } from './Pages/Songs';
+import { Facts } from './Pages/Facts';
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<><Navbar/><Main/><Footer/></>}/>
-        <Route path="*" element={<><h1>Page Not Found</h1></>}/>
+        <Route path="/facts" element={<><Navbar/><Facts/><Footer/></>}/>
+        <Route path="/about" element={<><Navbar/><About/><Footer/></>}/>
+        <Route path="/songs" element={<><Navbar/><Songs/><Footer/></>}/>
+        <Route path="*" element={<><h1 style={{height:"100vh"}} className="p-5">Page Not Found!</h1></>}/>
       </Routes>
       </Router>
     </div>
