@@ -1,3 +1,8 @@
+.heading{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aquamarine;text-shadow: 1.5px 1.5px black;
+}
+
 .App-header>h1 {
     font-size: 2em;
     white-space: nowrap;

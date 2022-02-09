@@ -9,13 +9,14 @@
 
 @media only screen and (width<= 1000px) {
   .App{
-    background-size:contain;
+    /* margin: 2%; */
+    background-size:100%;
   } 
 }
 
 @media only screen and (width> 1000px) {
   .App{
-    background-size:cover;
+    background-size:100%;
   }
 }
 
