@@ -6,7 +6,7 @@ export const Main = () => {
     return (<div >
         <Header />
         <div className='acheivements d-flex justify-content-center row'>
-            <h1 className='m-5 px-5 heading'>Acheivements</h1>
+            <h1 className='m-5 pt-3 px-5 heading'>Acheivements</h1>
             <div className="facts d-flex justify-content-center px-5 row">
                 <h3 className='col-12 col-md-6 '><q>Bharat Ratna - 2001</q><hr/></h3>
                 <h3 className='col-12 col-md-6 '><q>Padma Vibhushan - 1999</q><hr/></h3>
