@@ -26,10 +26,6 @@ export const Navbar = () => {
           <NavLink to="/songs" className="nav-link">Songs</NavLink>
         </li>
       </ul>
-      {/* <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form> */}
     </div>
   </div>
 </nav>
