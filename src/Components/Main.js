@@ -26,10 +26,10 @@ export const Main = () => {
         <div className='facts d-flex justify-content-center row'>
         <h1 className='m-5 p-5'>Famous Songs</h1>
             <div className="facts d-flex justify-content-center px-5 row">
-                <h3 className='col-12 col-md-6 '><q>One of the best-known and Most respected playback singers in India</q><hr/></h3>
-                <h3 className='col-12 col-md-6 '><q>Eight-decade long career of playback singing</q><hr/></h3>
-                <h3 className='col-12 col-md-6 '><q>First voice of Indian film and the most recorded singing artist in history.</q><hr/></h3>
-                <h3 className='col-12 col-md-6 customLink'><Link to='/facts'><q>Know More Facts About Lata Ji...</q></Link><hr/></h3>
+                <h3 className='col-12 col-md-6 '><iframe width="560" height="325" src="https://www.youtube.com/embed/-NCdeldQLFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr/></h3>
+                <h3 className='col-12 col-md-6 '><iframe width="560" height="325" src="https://www.youtube.com/embed/-NCdeldQLFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr/></h3>
+                <h3 className='col-12 col-md-6 '><iframe width="560" height="325" src="https://www.youtube.com/embed/-NCdeldQLFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr/></h3>
+                <h3 className='col-12 col-md-6 customLink d-flex justify-content-center align-items-center'><Link to='/facts'><q>Listen to more songs of Lata Ji...</q></Link><hr/></h3>
             </div>
         </div>
     </div>);

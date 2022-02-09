@@ -2,9 +2,21 @@
   background-color: aqua;
   background-image: url('./Resources/Images/lata1.jpg');
   background-repeat: no-repeat;
-  background-size:cover;
+  
   background-attachment: fixed;
   overflow: hidden;
+}
+
+@media only screen and (width<= 1000px) {
+  .App{
+    background-size:contain;
+  } 
+}
+
+@media only screen and (width> 1000px) {
+  .App{
+    background-size:cover;
+  }
 }
 
 
