@@ -6,7 +6,7 @@ export const Main = () => {
     return (<div >
         <Header />
         <div className='acheivements d-flex justify-content-center row'>
-            <h1 className='m-5 p-5'>Acheivements</h1>
+            <h1 className='m-5 px-5'>Acheivements</h1>
             <div className="facts d-flex justify-content-center px-5 row">
                 <h3 className='col-12 col-md-6 '><q>Bharat Ratna - 2001</q><hr/></h3>
                 <h3 className='col-12 col-md-6 '><q>Padma Vibhushan - 1999</q><hr/></h3>
@@ -15,7 +15,7 @@ export const Main = () => {
             </div>
         </div>
         <div className='facts d-flex justify-content-center row'>
-        <h1 className='m-5 p-5'>Facts</h1>
+        <h1 className='m-5 px-5'>Facts</h1>
             <div className="facts d-flex justify-content-center px-5 row">
                 <h3 className='col-12 col-md-6 '><q>One of the best-known and Most respected playback singers in India</q><hr/></h3>
                 <h3 className='col-12 col-md-6 '><q>Eight-decade long career of playback singing</q><hr/></h3>
@@ -24,7 +24,7 @@ export const Main = () => {
             </div>
         </div>
         <div className='facts d-flex justify-content-center row'>
-        <h1 className='m-5 p-5'>Famous Songs</h1>
+        <h1 className='m-5 px-5'>Famous Songs</h1>
             <div className="facts d-flex justify-content-center px-5 row">
                 <h3 className='col-12 col-md-6 '><iframe width="100%" height="100%" src="https://www.youtube.com/embed/-NCdeldQLFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr/></h3>
                 <h3 className='col-12 col-md-6 '><iframe width="100%" height="100%" src="https://www.youtube.com/embed/-NCdeldQLFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr/></h3>
