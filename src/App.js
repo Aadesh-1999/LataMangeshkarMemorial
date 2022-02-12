@@ -13,9 +13,6 @@ import { HindiSongs } from './Pages/HindiSongs';
 function App() {
   return (
     <div className="App">
-      <audio autoPlay>
-        <source src="./Resources/bg.mp4" type="audio/mpeg"/>
-      </audio>
       <Router>
         <Routes>
           <Route path="/" element={<><Navbar /><Main /><Footer /></>} />
