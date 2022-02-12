@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const HindiSongs = () => {
-  return (<div className='container row m-5'>
+  return (<div className='container row d-flex justify-content-center align-items-center'>
     <div className="col-12 p-3 col-md-6">
       <iframe width="100%" height="250px" src="https://www.youtube.com/embed/7Ums6XFisaQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
